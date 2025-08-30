@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('./assets/fonts/Satoshi_Complete/Fonts/WEB/Satoshi-Variable.woff2')
+    format('woff2'),
+    url('./assets/fonts/Satoshi_Complete/Fonts/WEB/Satoshi-Variable.woff')
+ format('.woff'),
+ url('./assets/fonts/Satoshi_Complete/Fonts/WEB/Satoshi-Variable.otf')
+ format('opentype');
+ font-weight: 100 900;
+ font-style: normal;
+}
+
+
+
+.cards{
+    position: relative;
+    display: flex;
+   font-family: "Satoshi",sans-serif;
+     font-weight: 500;
+}
+
+.job-card {
+    max-width:316px;
+    max-height: 360px;
+    background: #ffffff;
+border-radius: 12px;
+  box-shadow:0px 0px 14px 0px rgba(211, 211, 211, 0.15);
+  padding: 15px 20px 20px 20px;
+ position: relative;
+  
+  
+}
+
+.job-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   position: relative;
+
+ 
+}
+.img-box{
+    border: 1px solid #FFFFFF;
+    height:82px;
+    width: 83.46;
+    top: 16px;
+    left: 16px;
+    border-radius: 13.18px;
+     
+    
+
+}
+
+.company-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  position: absolute;
+  top: 11px;
+  left: 12px;
+   box-shadow: 0 0 10.25px 0 rgba(148, 148, 148, 0.25);
+   border: 1px solid #fffefe;
+   padding: 5px;
+    background: linear-gradient(135deg, #F1F1F1, #FEFEFD);
+}
+
+.posted-time {
+    max-width: 75px;
+    max-height: 33px;
+  font-size: 14px;
+  background: #B0D9FF;
+  color: black;
+  padding: 7px 10px 7px 10px;
+  gap: 10px;
+  border-radius: 10px;
+  font-weight: 500;
+  position: absolute;
+  top: 16px;
+  left: 222px;
+  font-family: "Satoshi",sans-serif;
+  
+}
+
+.job-title {
+  
+  font-size: 20px;
+  color: #000000;
+  font-weight: 700;
+  top: 117px;
+  left: 16px;
+  font-family: "Satoshi",sans-serif;
+  
+}
+
+
+.job-meta {
+    width: 263.08px;
+    height: 22px;
+  display: flex;
+  justify-content: space-between;
+   
+  position: relative;
+  color: #5A5A5A;
+
+   
+
+}
+.job-meta .exp , .type ,.sal{
+    font-weight: 500;
+    font-size: 16px;
+    gap: 4px;
+      font-family: "Satoshi",sans-serif;
+}
+
+.job-meta .user,.buil,.layer{
+    padding: 0.9px;
+    gap:9px;
+vertical-align: middle;
+margin-right: 3px;
+
+    
+}
+
+
+.job-desc {
+    width: 300px;
+  font-size: 14px;
+  color: #555555;
+  margin-top: 20px;
+  height: 76px;
+  
+
+}
+
+.job-desc ul{
+    font-family: "Satoshi",sans-serif;
+margin: 0%;
+padding-left: 15px;
+font-size: 14px;
+line-height: 1.5;
+
+
+}
+.job-desc li{
+    position: relative;
+    margin-bottom: 6px;
+}
+.job-desc li::before{
+    position: absolute;
+    padding-left: 1.2rem;
+    left:0;
+    margin-bottom: 6px;
+    top: 0;
+    line-height: 1.4;
+}
+
+
+.apply-btn{
+    width: 284px;
+    height: 46px;
+    gap: 10px;
+    
+  
+  padding: 12px 10px;
+  background: #00AAFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Satoshi",sans-serif;
+  margin-top: 30px;
+
+}
+
+.apply-btn:hover {
+  background: #005bb5;
+}
+
+  .job-list {
+     margin-top: 30px;
+  display: flex;
+ flex-wrap: wrap;
+ justify-content: flex-start;
+  gap: 20px;
+  padding: 20px;
+  max-width: 1360px;
+  margin: 0 auto;
+
+  
+}
+.job-row{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+    
+}
+#top-row{
+    margin-top: 40px;
+}
+
+
+/* if i use  closebtn in future */
+/*  
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: red;
+  border: none;
+  color: white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+} */
+
