@@ -5,8 +5,8 @@ import React, { useEffect, useState } from "react";
 import Jobcard from "../Components/Jobcard";
 import "./Jobcard.css";
 import amazonLogo from '../assets/amazonlogo.png';
-import teslaLogo from '../assets/teslalogo.png';
-import swiggyLogo from '../assets/swiggylogo.png';
+import teslaLogo from '../assets/teslaLogo.png';
+import swiggyLogo from '../assets/swiggyLogo.png';
 import axios from "axios";
 
 const Joblist = () => {
