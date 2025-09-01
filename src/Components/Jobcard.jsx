@@ -5,6 +5,7 @@ import './Jobcard.css';
 import { UserPlus, Layers, X } from 'lucide-react';
 import { useEffect } from "react";
 import axios from "axios";
+import build from "../assets/Build.png"
 
 export const Jobcard = ({ job, onDelete }) => {
   useEffect(() => {
@@ -52,7 +53,7 @@ export const Jobcard = ({ job, onDelete }) => {
             <span>{job.experience}</span>
           </div>
           <div className="type">
-            <img size={18} src="src/assets/Build.png" className="buil"/>
+            <img size={18} src={build} className="buil"/>
             <span>{job.jobType}</span>
           </div>
           <div className="sal"> 
