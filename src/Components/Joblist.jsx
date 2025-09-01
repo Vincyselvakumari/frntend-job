@@ -9,15 +9,10 @@ import teslaLogo from '../assets/teslaLogo.png';
 import swiggyLogo from '../assets/swiggyLogo.png';
 import axios from "axios";
 
-const Joblist = () => {
+const Joblist = ({filters}) => {
   const [jobs, setJobs] = useState([]);
   const [newJobs, setNewJobs] = useState([]); 
-  const [filters, setFilters] = useState({
-    searchText: "",
-    location: "",
-    jobtype: "",
-    salary: [0, 1000000],
-  });
+ 
 
   const handleDeleteJob = (id) => {
     setNewJobs(prev => prev.filter(job => job.id !== id));
